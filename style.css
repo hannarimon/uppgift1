@@ -1,0 +1,98 @@
+.clearfix:after{
+    content:".";
+    display:block;
+    height:0;
+    clear:both;
+    visibility:hidden;
+}
+
+html {
+    overflow: hidden;
+    height: 100vw;
+}
+
+body {
+    overflow: hidden;
+    height: 100vw;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: linear-gradient(#3d085c, #1b0229);
+
+}
+
+.site-header {
+    color: #ffffff;
+    padding: 1px 1%;
+    text-shadow: 1px 1px 1px #000000;
+    border: 1px solid #2d0644;
+    box-shadow: 0px 1px 1px #2d0644;
+    box-sizing: border-box;
+
+}
+
+.site-header h1 {
+    margin: 0;
+    font-size: 32px;
+    float: left;
+    
+
+}
+
+.main-nav {
+    float: right;
+
+}
+.main-nav ul {
+    font-size: 23px;
+    padding: 1px 0px;
+    margin: 0;
+    list-style: none;
+    float: right;
+    word-spacing: 3px;
+
+}
+
+.main-nav ul li {
+    display: inline;
+
+}
+
+.main-nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000000;
+
+}
+
+
+.billboard {
+    text-align: center;
+    padding: 100px;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000000;
+    box-sizing: border-box;
+    
+}
+
+.billboard ul {
+    list-style: none;
+    justify-content: center;
+}
+
+.footer {
+    bottom: 0;
+    position: fixed;
+    color: #ffffff;
+    width: 100vw;
+    padding: 1px 10px;
+    box-sizing: border-box;
+}
+
+.contactform {
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000000;
+    padding: 100px;
+    list-style: none;
+    text-align: center;
+}
